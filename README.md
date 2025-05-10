@@ -1,4 +1,4 @@
-# SoftSell – Internship Frontend Project
+# SoftSell
 
 **SoftSell** is a responsive, interactive frontend for a software sales platform built during my internship. It features a modern user interface, smooth animations, and an integrated chatbot experience designed for intuitive user interaction.
 
