@@ -75,7 +75,7 @@ const About = () => {
             <div className="relative h-dvh w-screen" id="clip">
                 <div className="mask-clip-path about-image">
                     <img
-                        src="/public/Softshell.png"
+                        src="/Softshell.png"
                         alt="Background"
                         className="absolute left-0 top-0 size-full object-cover"
                     />
