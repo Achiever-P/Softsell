@@ -59,7 +59,9 @@ const NavBar = ({ darkMode, setDarkMode }) => {
                       href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
                       className="nav-hover-btn"
                   >
+                    <div className="font-sans font-semibold">
                     {item}
+                  </div>
                   </a>
               ))}
               {/* Dark Mode Toggle */}
@@ -85,7 +87,7 @@ const NavBar = ({ darkMode, setDarkMode }) => {
                       <a
                           key={index}
                           href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
-                          className="relative text-xs uppercase text-blue-50 after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer"
+                          className="relative text-xs uppercase text-blue-50 after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer"
                           onClick={() => setIsMobileMenuOpen(false)}
                       >
                         {item}
