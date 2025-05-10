@@ -45,7 +45,7 @@ const NavBar = ({ darkMode, setDarkMode }) => {
             {/* Logo */}
             <div className="flex items-center gap-4">
               <img
-                  src="/public/logo.png"
+                  src="/logo.png"
                   alt="logo"
                   className="h-10 md:h-12 object-contain max-h-full"
               />
